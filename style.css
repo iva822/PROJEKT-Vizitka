@@ -1,6 +1,12 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
 
 /*
 BARVY:
@@ -15,71 +21,70 @@ tlačítko Facebook aktivní: #2b406e
 */
 
 body {
-    background-color:#b2bec3;
-    margin: 0;
-    font-family: 'Nunito', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
+  background-color: #b2bec3;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
 }
 
 h1 {
-    color:#d63031;
-    margin: 0;
-}
+  color: #d63031;
+  margin: 0;
+}  
 
-p{
-    margin-bottom:30px;
-    margin-top: 30px;
+p {
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .ramecek {
-    width: 550px;
-    background-color: white;
-    margin-top: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    padding: 30px;
-    position: relative;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0,  0.3);
+  width: 550px;
+  background-color: white;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 30px;
+  position: relative;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .foto {
-    position: absolute;
-    top: -75px;
-    right:-75px;
-    width: 150px;
-    border-width: 3px;
-    border-style: solid;
-    border-color: white;
-    border-radius: 50%;
+  position: absolute;
+  top: -75px;
+  right: -75px;
+  width: 150px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50%;
 }
 
-.obdelnik {
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    text-transform:uppercase;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    width: 490px; 
-    text-align: center;    
+.odkaz {
+  padding: 10px;
+  border-radius: 5px;
+  width: 490px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
 }
 
 .twitter {
-    background-color:  #1da1f2;
-    margin-bottom: 5px;
+  background-color: #1da1f2;
+  margin-bottom: 5px;
 }
 
- .twitter a:hover{
-    background-color: red;
+.twitter:hover {
+  background-color: #0b7bc1;
 }
 
 .facebook {
-    background-color:#3b5998;
-    
+  background-color: #3b5998;
 }
-.facebook a:hover{
-    background-color: green;
+
+.facebook:hover {
+  background-color: #2b406e;
 }
